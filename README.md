@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Pawbook
+Pawbook is a social media app designed for pet owners to connect, share and interact with other pet lovers from around the world. The app allows users to create a profile, add posts and like and comment on other users’ posts.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tech:
+Frontend:
+1. React.JS
+2. JavaScript
+3. SCSS
+4. Material UI
+5. React-Icons
+<br>
 
-## Available Scripts
+Backend:
+1. express.JS
+2. MySQL (mysql2)
+<br>
 
-In the project directory, you can run:
+Database requests using AJAX and Axios
+User authentication using JSON web token
+<br>
+Other installed packages:
+Nodemon | React-Router-Dom | React-Icons | Moment | Bcryptjs | Cors | Multer
+<br>
+Backend code - https://github.com/Wckenny14/Pawbook-Social-Media-Server
+<br><br>
 
-### `npm start`
+## Installation:
+1. Clone the repository to your local machine.
+2. Install the necessary dependencies by running npm install.
+3. Start the app by running npm start.
+<br><br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage:
+Navigate to http://localhost:3000 in your web browser.
+<br><br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features:
+- Create a Profile: Users can create a profile with their pet's name and upload their pet's picture.
 
-### `npm test`
+- Add Posts: Users can share photos of their pets and add comments.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Like and Comment: Users can like and comment on other users’ posts to show appreciation or start a conversation.
+<br><br>
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ ## Future Updates:
+ - Add Stories: Users can add short videos of their pets for other connected users to view
+ - Registration to include profile picture upload
